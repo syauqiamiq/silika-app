@@ -1,0 +1,57 @@
+.logo {
+  width: 400px;
+  height: 70px;
+  margin-left: 20px;
+}
+.navBG {
+  background-color: #d7fbe8;
+}
+.nav-group {
+  margin-right: 50px;
+}
+
+.nav-link {
+  color: black !important;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: #1fab89 !important;
+}
+.btn-login {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px !important;
+  border-style: none !important;
+  background-color: #62d2a2 !important;
+  color: black !important;
+  font-size: 20px !important;
+  align-items: center;
+  padding: 5px !important;
+  font-family: "Montserrat", sans-serif;
+}
+.btn-login:hover {
+  background-color: #1fab89 !important;
+}
+
+.dropdown-item {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+.dropdown-item:focus {
+  background-color: #d7fbe8 !important;
+  color: black !important;
+}
+.dropdown-item:hover {
+  background-color: #d7fbe8 !important;
+  color: black !important;
+}
+@media (max-width: 767.98px) {
+  .logo {
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+  }
+}
