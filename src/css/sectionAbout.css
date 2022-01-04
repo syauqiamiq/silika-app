@@ -1,0 +1,43 @@
+.section-about {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.about-column {
+  margin-left: -100px;
+}
+
+.card-section-about {
+  width: 450px;
+  height: 450px;
+}
+.button-about-wrapper {
+  justify-content: end;
+}
+
+.title-about {
+  font-family: "Montserrat" sans-serif;
+  font-size: 40px;
+}
+.content-about {
+  font-family: "Montserrat" sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+.about-button {
+  width: 250px !important;
+  height: 50px !important;
+  margin-right: 30px;
+  border-radius: 50px !important;
+  border-style: none !important;
+  background-color: #62d2a2 !important;
+  color: black !important;
+  font-size: 18px !important;
+  align-items: center;
+  padding: 5px !important;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.about-button:hover {
+  background-color: #1fab89 !important;
+  color: white !important;
+}

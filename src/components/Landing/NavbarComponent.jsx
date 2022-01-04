@@ -36,12 +36,18 @@ const NavbarComponent = () => {
                   INFO KHS
                 </a>
               </NavDropdown>
-              <Nav.Link className="nav-link">Information</Nav.Link>
+              <Link to="/information" className="nav-link">
+                Information
+              </Link>
               <Link to="/about" className="nav-link">
                 About Us
               </Link>
-              <Nav.Link className="nav-link">Schedule</Nav.Link>
-              <Button className="btn-login">Login</Button>
+              <Link to="/schedule" className="nav-link">
+                Schedule
+              </Link>
+              <Link to="/auth/login" className="nav-Link">
+                <Button className="btn-login ">Login</Button>
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

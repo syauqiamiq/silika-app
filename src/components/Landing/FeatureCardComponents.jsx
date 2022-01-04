@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import Icon1 from "../../assets/icons/FeatureCard/icon1.png";
 import Icon2 from "../../assets/icons/FeatureCard/icon2.png";
 import Icon3 from "../../assets/icons/FeatureCard/icon3.png";
@@ -18,6 +18,9 @@ const FeatureCardComponents = () => {
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
                   make a type specimen book.
                 </Card.Text>
+                <Row className="justify-content-end">
+                  <Button className="card-button"> View More</Button>
+                </Row>
               </Card.Body>
             </Card>
           </Col>
@@ -30,6 +33,9 @@ const FeatureCardComponents = () => {
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
                   make a type specimen book.
                 </Card.Text>
+                <Row className="justify-content-end">
+                  <Button className="card-button"> View More</Button>
+                </Row>
               </Card.Body>
             </Card>
           </Col>
@@ -42,6 +48,9 @@ const FeatureCardComponents = () => {
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
                   make a type specimen book.
                 </Card.Text>
+                <Row className="justify-content-end">
+                  <Button className="card-button"> View More</Button>
+                </Row>
               </Card.Body>
             </Card>
           </Col>

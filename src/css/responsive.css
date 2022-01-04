@@ -1,0 +1,34 @@
+@media (max-width: 767.98px) {
+  /* NAVBAR RESPONSIVE CSS*/
+  .logo {
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+  }
+  /* END NAVBAR RESPONSIVE CSS*/
+
+  /* JUMBOTRON RESPONSIVE CSS*/
+  .image-slider {
+    width: 100%;
+    height: 250px;
+  }
+  /* END JUMBOTRON RESPONSIVE CSS*/
+
+  /* SECTION ABOUT RESPONSIVE CSS*/
+  .card-section-about {
+    width: 100%;
+    height: 250px;
+  }
+  .about-column {
+    margin-left: 0;
+  }
+  .button-about-wrapper {
+    justify-content: center;
+  }
+  .content-about {
+    font-family: "Montserrat" sans-serif;
+    font-size: 18px;
+    text-align: justify;
+  }
+  /* END SECTION ABOUT RESPONSIVE CSS*/
+}

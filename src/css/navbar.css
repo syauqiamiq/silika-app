@@ -21,6 +21,7 @@
   color: #1fab89 !important;
 }
 .btn-login {
+  text-decoration: none !important;
   width: 150px;
   height: 50px;
   border-radius: 50px !important;
@@ -33,6 +34,7 @@
   font-family: "Montserrat", sans-serif;
 }
 .btn-login:hover {
+  color: white !important;
   background-color: #1fab89 !important;
 }
 
@@ -47,11 +49,4 @@
 .dropdown-item:hover {
   background-color: #d7fbe8 !important;
   color: black !important;
-}
-@media (max-width: 767.98px) {
-  .logo {
-    width: 200px;
-    height: 50px;
-    margin-left: 20px;
-  }
 }

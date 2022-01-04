@@ -3,6 +3,7 @@
 @import "navbar.css";
 @import "jumbotron.css";
 @import "featureCard.css";
+@import "responsive.css";
 
 .body {
   background-color: #ffffff;

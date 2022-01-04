@@ -17,16 +17,13 @@ const JumbotronComponent = () => {
     <>
       <Slider {...settings}>
         <div>
-          <img className="image-slider" src={image1} alt="" />
+          <img className="image-slider" src="https://infotech.umm.ac.id/assets/frontside/images/sliders/slide_1.png" alt="" />
         </div>
         <div>
-          <img className="image-slider" src={image1} alt="" />
+          <img className="image-slider" src="https://infotech.umm.ac.id/assets/frontside/images/sliders/slide_2.png" alt="" />
         </div>
         <div>
-          <img className="image-slider" src={image1} alt="" />
-        </div>
-        <div>
-          <img className="image-slider" src={image1} alt="" />
+          <img className="image-slider" src="https://infotech.umm.ac.id/assets/frontside/images/sliders/slider_ilab_2.png" alt="" />
         </div>
       </Slider>
     </>
