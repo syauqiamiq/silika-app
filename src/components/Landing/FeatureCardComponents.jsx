@@ -7,7 +7,7 @@ import Icon3 from "../../assets/icons/FeatureCard/icon3.png";
 const FeatureCardComponents = () => {
   return (
     <>
-      <Container fluid className="section-card">
+      <Container className="section-card">
         <Row>
           <Col xl={4} lg={4} md={4} sm={12} xs={12}>
             <Card className="feature-card">

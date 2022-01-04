@@ -8,7 +8,7 @@ const NavbarComponent = () => {
   return (
     <>
       <Navbar className="navBG" expand="xl">
-        <Container fluid>
+        <Container>
           <Navbar.Brand href="#home">
             <img className="logo" src={Logo} alt="" />
           </Navbar.Brand>

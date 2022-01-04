@@ -1,17 +1,17 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import "../../css/sectionAbout.css";
-import SectionPhoto from "../../assets/image/section1-photo.png";
+import { Link } from "react-router-dom";
+import SectionPhoto from "../../assets/image/section1-photo.jpg";
 
 const SectionAboutComponent = () => {
   return (
     <>
-      <Container fluid className="section-about">
+      <Container className="section-about">
         <Row>
           <Col xl={6} lg={6} md={6} sm={12} xs={12}>
             <Row className="text-center">
               <Col>
-                <img className="card-section-about" src={SectionPhoto} alt="" />
+                <img className="image-section-about" src={SectionPhoto} alt="" />
               </Col>
             </Row>
           </Col>
@@ -36,7 +36,11 @@ const SectionAboutComponent = () => {
               </Col>
             </Row>
             <Row className="button-about-wrapper">
-              <Button className="about-button"> Learn More </Button>
+              <Col>
+                <Link to="/about" className="Link">
+                  <Button className="about-button"> Learn More </Button>
+                </Link>
+              </Col>
             </Row>
           </Col>
         </Row>

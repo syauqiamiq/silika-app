@@ -4,7 +4,20 @@
 @import "jumbotron.css";
 @import "featureCard.css";
 @import "responsive.css";
+@import "sectionMinat.css";
+@import "sectionAbout.css";
+@import "footer.css";
 
 .body {
   background-color: #ffffff;
+}
+.Link {
+  color: black !important;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.Link:hover {
+  color: #1fab89 !important;
 }

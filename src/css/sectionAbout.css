@@ -2,16 +2,16 @@
   margin-top: 30px;
   margin-bottom: 10px;
 }
-.about-column {
-  margin-left: -100px;
-}
-
-.card-section-about {
+.image-section-about {
+  margin-top: 30px;
   width: 450px;
   height: 450px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(197, 197, 197);
 }
 .button-about-wrapper {
   justify-content: end;
+  text-align: end;
 }
 
 .title-about {

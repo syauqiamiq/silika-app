@@ -15,14 +15,18 @@
   /* END JUMBOTRON RESPONSIVE CSS*/
 
   /* SECTION ABOUT RESPONSIVE CSS*/
-  .card-section-about {
-    width: 100%;
-    height: 250px;
+  .image-section-about {
+    width: 100% !important;
+    height: 250px !important;
   }
   .about-column {
     margin-left: 0;
   }
+  .title-about {
+    margin-top: 20px;
+  }
   .button-about-wrapper {
+    text-align: center;
     justify-content: center;
   }
   .content-about {
@@ -31,4 +35,8 @@
     text-align: justify;
   }
   /* END SECTION ABOUT RESPONSIVE CSS*/
+
+  /* SECTION MINAT RESPONSIVE CSS*/
+
+  /* END SECTION MINAT RESPONSIVE CSS*/
 }
